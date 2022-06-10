@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/Users/kyoorim/Desktop/nomadCoders/vanillaJS/chromeWeb/css/styles.css"
+    />
+    <title>Momentum App</title>
+  </head>
+  <body>
+    <form id="login-form" class="hidden">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?"
+      />
+      <button>Log in</button>
+    </form>
+    <h2 id="clock">00:00:00</h2>
+    <h1 id="greeting" class="hidden"></h1>
+    <!-- 유효성검사를 html에서 작업하려면 반드시 form 안에서 작업해야함 -->
+    <!-- form 일 경우 submit이 자동적으로 이뤄지고 새로고침된다 -->
+    <form id="todo-form">
+      <input type="text" placeholder="Write a To-do and Press Enter" required />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="weather"></div>
+    <span></span>
+    <span></span>
+    <script src="/Users/kyoorim/Desktop/nomadCoders/vanillaJS/chromeWeb/js/greetings.js"></script>
+    <script src="/Users/kyoorim/Desktop/nomadCoders/vanillaJS/chromeWeb/js/clock.js"></script>
+    <script src="/Users/kyoorim/Desktop/nomadCoders/vanillaJS/chromeWeb/js/quotes.js"></script>
+    <script src="/Users/kyoorim/Desktop/nomadCoders/vanillaJS/chromeWeb/js/background.js"></script>
+    <script src="/Users/kyoorim/Desktop/nomadCoders/vanillaJS/chromeWeb/js/todo.js"></script>
+    <script src="/Users/kyoorim/Desktop/nomadCoders/vanillaJS/chromeWeb/js/weather.js"></script>
+  </body>
+</html>
